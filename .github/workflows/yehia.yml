@@ -1,0 +1,21 @@
+name: yehia
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: testtesttest
+        run: echo kamananav1
+
+      - name: test2
+        run: echo kamananav2
+          echo kamananav2.3
